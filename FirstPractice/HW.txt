@@ -1,0 +1,30 @@
+
+Even or Odd:
+
+Ask the user for a number.
+Use an if condition to check if it’s even or odd and print the result.
+
+Temperature Check:
+
+Store a temperature value in a variable.
+If it’s above 30, print "It’s hot!" Otherwise, print "It’s cool!"
+
+Pass or Fail:
+
+Ask the user for their test score.
+If it’s 50 or above, print "You passed!" Otherwise, print "You failed."
+
+Traffic Light Simulation:
+
+Ask the user to enter a color (red, yellow, or green).
+Print a message based on the color (e.g., "Stop" for red, "Go" for green).
+
+Number Guessing Game:
+
+Store a secret number in a variable.
+Ask the user to guess it and check if they are correct or not.
+
+Simple Discount Calculator:
+
+Ask the user for the price of an item.
+If the price is more than 100, apply a 10% discount and print the new price.
