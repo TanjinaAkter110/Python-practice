@@ -1,4 +1,8 @@
-Firstinput= float(input('Radius of the circle='))
-pi= 3.1416
-Area= pi*Firstinput*Firstinput
-print ('Area of the circle=', Area)
+def radius (r):
+    
+     area = 3.1416* r*r
+     return area
+r= int(input('enter the radius'))
+area= radius (r)
+print('Value of the area:', area)
+
