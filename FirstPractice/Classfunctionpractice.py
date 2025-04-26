@@ -18,7 +18,7 @@ class Running:
             t= "Not tired"
         return t
 Target= 15
-DistanceGone= Walking.distance(Tar)   
+DistanceGone= Walking.distance(15)   
 TiredAmount= Walking.tired (15)  
 DistanceGone1= Running.distance(15)
 TiredAmount1= Running.tired (15)
