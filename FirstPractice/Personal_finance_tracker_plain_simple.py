@@ -1,3 +1,8 @@
+## This is a non standard way of the solution
+## Solution by Arafat Mollik
+## No function was used here, best solution would be to make smaller pieces of this by creating one or two function
+## For instance, finance_tracker was not used here, should be used
+
 monthly_budget = float(input("Enter the monthly Budget: "))
 total_income= 0
 total_expense= 0
