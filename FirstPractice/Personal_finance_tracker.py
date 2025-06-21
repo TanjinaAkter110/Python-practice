@@ -26,14 +26,18 @@ def finance_tracker (transactions, budget):
 
         Net_balance= total_income- total_expense
         print ('Net balance:', Net_balance)
+        print ("Financial_status:")
         if Net_balance> budget:
-            print ('Surplus')
+            print ("Surplus")
         
         elif budget-0.05 <= Net_balance <= budget + 0.05:
             print ('Balanced')
         
         elif Net_balance<budget:
             print ('Deficit')
-        
+        if 'Financial_status'== 'Deficit':
+            Over_budget= budget-Net_balance
+            percentage_over= (Over_budget/budget)*100
+            
 
 
